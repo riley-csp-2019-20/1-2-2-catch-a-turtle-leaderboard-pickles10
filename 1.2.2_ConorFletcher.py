@@ -12,7 +12,7 @@ leader_names_list = []
 leader_scores_list = []
 player_name = input("please enter your name: ")
 #timer 
-timer = 20
+timer = 5
 counter_interval = 1000   #1000 represents 1 second
 timer_up = False
 shape = "turtle"
