@@ -72,7 +72,7 @@ def change_position():
 
 def score_counter():
     global score
-    score += 1 
+    score += 1
     print (score)
     sco.clear()
     sco.write(score, font=font)
@@ -107,7 +107,6 @@ def manage_leaderboard():
     lb.draw_leaderboard(leader_names_list, leader_scores_list, False, ham, score)
 
     
-
 
 #-----events----------------]
 ham.onclick(turtle_clicked)
